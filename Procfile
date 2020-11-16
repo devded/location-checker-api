@@ -1,1 +1,1 @@
-web: gunicorn app:apppip freeze > requirements.txt
+web: gunicorn --bind 0.0.0.0:$PORT app:app
